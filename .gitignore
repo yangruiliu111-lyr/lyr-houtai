@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+
+# Local debugging screenshots
+check-v3.png
+current-state.png
+debug-blank.png
+final-check.png
+final-v4.png
+fixed.png
+review.png
+self-check.png
+self-check2.png
+static-serve.png
+verify-page.png
+virash-v1.png

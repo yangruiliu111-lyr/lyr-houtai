@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>测试页面 - 如果你看到这个，说明服务器能访问</h1>
+<div id="app"></div>
+<script type="importmap">
+{ "imports": { "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js" } }
+</script>
+<script type="module">
+import { createApp, ref } from 'vue'
+createApp({
+  setup() {
+    const msg = ref('Hello Virash! 数据监控')
+    return { msg }
+  },
+  template: '<h2 style="color:#ED1D7A">{{ msg }}</h2>'
+}).mount('#app')
+</script>
+</body>
+</html>
